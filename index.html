@@ -1,31 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-	<title>Domestica.com</title>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		body{
+			margin: 0;
+			background-image:url(h.jpg);
+			background-attachment: fixed;
+			background-size: 100%;
+			background-repeat: no-repeat;
+			background-color: white;
+			
+		}
+		
+		#menu {
+			position:height fixed;
+			top: 0;
+			z-index: 99;
+			height: 100%;
+		}
+		
+		#menu ul{
+			margin: 0;
+			background-color: black;
+			list-style: none;
+		}
+		#menu ul li {
+			display: inline;
+		}
+		#menu ul li a{
+			padding: 10px 10px;
+			display: inline-block;
+
+			color: white;
+			text-decoration: none;
+		}
+		#menu ul li a:hover{
+				color: red;
+		}
+		#Corpo {
+			width: 100%; height: 900px;
+		}
+		#rodape ul{
+			margin: 0;
+			background-color: black;
+			list-style: none;
+		}
+		#rodape ul li {
+			display: inline;
+		}
+		#rodape ul li a{
+			padding: 10px 20px;
+			display: inline-block;
+			color: white;
+			text-decoration: none;
+		}
+		#rodape ul li a:hover{
+				color: red;
+		}
+	</style>
 </head>
-<style >
-	a{
-		color: #000000
-	}
-	
-body {
-	background-image:url(projeto.gif);
-	background-attachment:fixed;
-	background-size:1350px 900px;
-	background-repeat: no-repeat;
-	background-color:#000 
-	 }
-
-
-
-</style>
 <body>
-<center><h1>Doméstica.com</h1></center>
+	<center><div id="menu">
+		<ul>
+			<li><a href="index.html">Inicio</a></li>
+			<li><a href="visao.html">Visão</a></li>
+			<li><a href="valores.html">Valores</a></li>
+			<li><a href="missao.html">Missão</a></li>
+			
+		</ul>
+		
+			
+	</div></center>
 
-<h3><center><b><a class ="btn btn-defaut" href="visao.html">Visão</link></b></center></h3>
-<h3><center><b><a class ="btn btn-defaut" href="missao.html">Missão</link></b></center></h3>
-<h3><center><b><a class ="btn btn-defaut" href="valores.html">Valores</link></b></center></h3>
+	<div id="Corpo">
+		
+	</div>
+
+	<div id="rodape">
+	<center><ul>
+			<li><a href="#">Contato</a></li>
+			<li><a href="#">Endereço</a></li>
+			<li><a href="#">E-mail</a></li>
+			<li><a href="#">Colaboradores</a></li>
+			
+		</ul></center>
+	
+	</div>
+
 </body>
 </html>
-
