@@ -3,7 +3,6 @@
 <head>
 		<meta charset="UTF-8">
 		<title>altenticacao</title>
-		<body background="oi.jpg">
 </head>
 <body>
 

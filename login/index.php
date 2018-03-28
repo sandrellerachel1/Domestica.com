@@ -1,6 +1,3 @@
-<body barckground="oi.jpg">
-<a style="font-sizer: 50; color:#FFFFFF">	
-
 <?php
 
 session_start();
