@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang= "en">
 <head>
-	<meta charset="UTF-8">
-	<title>One World Domestic</title>
-	<style>
+		<meta charset="UTF-8">
+		<title>One World Domestic</title>
+		<style>
 		 body{
       margin: 0;
       background-image:url(h.jpg);
@@ -60,25 +60,31 @@
         color: red;
     }
 	</style>
+
 </head>
 <body>
-	<center><div id="menu">
+<center><div id="menu">
 		<ul>
 			<li><a href="home.html">Home</a></li>
 			<li><a href="cadastrar.html">Cadastrar</a></li>
 			<li><a href="index.php">Entrar</a></li>
 			<li><a href="index.html">Sobre</a></li>
-
+		
 		</ul>
 		
 			
 	</div></center>
 
 	<div id="Corpo">
-		
-	</div>
 
-	<div id="rodape">
+
+		<form action="autenticacao.php" method="POST">
+				<input type="text" name="usuario" placeholder="login" required > 
+				<input type="password" name="senha" placeholder="Senha" required > 
+				<input type="submit" value="Login"> 
+		</form>
+		</div>
+		<div id="rodape">
 	<center><ul> <div class=footer></div>
 			<td><li><a>Fabiana Nayara da Silva Bezerra  <br>(fnfabianabe@gmail.com) <br> - (81) 9 8583-5379</a></li></td> 
 		  <td><li><a>Janio Vinicius Ramos Cajueiro  <br>(janiovinicius17@gmail.com) <br> -(81) 9 8676-9119</a></li></td> 
@@ -90,3 +96,5 @@
 
 </body>
 </html>
+
+

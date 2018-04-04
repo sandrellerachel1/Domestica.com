@@ -59,6 +59,7 @@
     #rodape ul li a:hover{
         color: red;
     }
+
 	</style>
 </head>
 <body>
@@ -75,8 +76,24 @@
 	</div></center>
 
 	<div id="Corpo">
-		
-	</div>
+
+<?php
+
+
+session_start();
+
+if (!isset($_SESSION['user'])) {
+
+   header('location: login.php');
+
+  }
+
+   echo "Bem vindo";
+
+?>
+<h2><center><a href="sair.php">sair</a></center></h2>
+
+</div>
 
 	<div id="rodape">
 	<center><ul> <div class=footer></div>
