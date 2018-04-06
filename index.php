@@ -63,6 +63,10 @@
 	</style>
 </head>
 <body>
+	<div id="bg"></div>
+	<div class="box"></div>
+	  <img src="">
+	  <a href="" id="close">X</a>
 	<center><div id="menu">
 		<ul>
 			<li><a href="home.html">Home</a></li>
