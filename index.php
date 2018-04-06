@@ -19,41 +19,26 @@
 </div>
 
 	<nav class="navbar navbar-default">
-
+</nav>
   
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <ul class="nav navbar-nav">
-      <li class="active"><a href="#">Home</a></li>
-      <li><a href="#">Sobre Nós</a></li>
+      <li class="active"><a href="home.html">Home</a></li>
+      <li><a href="modal.html">Sobre Nós</a></li>
     </ul>
     <ul class="nav navbar-nav navbar-right">
-      <li><a href="#"><span class="glyphicon glyphicon-user"></span>Cadastrar</a></li>
-      <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      <li><a href="cadastrar.html"><span class="glyphicon glyphicon-user"></span>Cadastrar</a></li>
+      <li><a href="login.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
     </ul>
   </div>
 </nav>
 
 		
 			
-	</div></center>
+	
 
 	<div id="Corpo">
-
-<?php
-
-
-session_start();
-
-if (!isset($_SESSION['user'])) {
-
-   header('location: login.php');
-
-  }
-
-   echo "BEM VINDO";
-
-?>
 
 </div>
 

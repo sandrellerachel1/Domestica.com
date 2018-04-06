@@ -3,80 +3,35 @@
 <head>
 		<meta charset="UTF-8">
 		<title>One World Domestic</title>
-		<style>
-		 body{
-      margin: 0;
-      background-image:url(h.jpg);
-      background-attachment: fixed;
-      background-size: 100%;
-      background-repeat: no-repeat;
-      background-color: white;
-      
-    }
-    
-    #menu {
-      position:height fixed;
-      top: 0;
-      z-index: 99;
-      height: 100%;
-    }
-    
-    #menu ul{
-      margin: 0;
-      background-color: black;
-      list-style: none;
-    }
-    #menu ul li {
-      display: inline;
-    }
-    #menu ul li a{
-      padding: 10px 10px;
-      display: inline-block;
-
-      color: white;
-      text-decoration: none;
-    }
-    #menu ul li a:hover{
-        color: red;
-    }
-    #Corpo {
-      width: 100%; height: 1000px;
-    }
-    #rodape ul{
-      margin: 0;
-      background-color: black;
-      list-style: none;
-    }
-    #rodape ul li {
-      display: inline;
-    }
-    #rodape ul li a{
-      padding: 10px 20px;
-      display: inline-block;
-      color: white;
-      text-decoration: none;
-    }
-    #rodape ul li a:hover{
-        color: red;
-    }
-	</style>
-
+		 <title>One World Domestic</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
-<center><div id="menu">
-		<ul>
-			<li><a href="home.html">Home</a></li>
-			<li><a href="cadastrar.html">Cadastrar</a></li>
-			<li><a href="login.php">Entrar</a></li>
-			<li><a href="modal.html">Sobre</a></li>
-		
-		</ul>
-		
-			
-	</div></center>
+<div class="jumbotron text-center">
+  <h1>One World Domestic</h1>
+  <p>Resize this responsive page to see the effect!</p> 
+</div>
 
-	<div id="Corpo">
-
+	<nav class="navbar navbar-default">
+</nav>
+  
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="home.html">Home</a></li>
+      <li><a href="modal.html">Sobre Nós</a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="cadastrar.html"><span class="glyphicon glyphicon-user"></span>Cadastrar</a></li>
+      <li><a href="login.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+    </ul>
+  </div>
+</nav>
 
 		<form action="autenticacao.php" method="POST">
 				<input type="text" name="usuario" placeholder="login" required > 
@@ -84,6 +39,13 @@
 				<input type="submit" value="Login"> 
 		</form>
 		</div>
+
+
+
+		<div id="Corpo">
+
+</div>
+
 		<div id="rodape">
 	<center><ul> <div class=footer></div>
 			<td><li><a>Fabiana Nayara da Silva Bezerra  <br>(fnfabianabe@gmail.com) <br> - (81) 9 8583-5379</a></li></td> 

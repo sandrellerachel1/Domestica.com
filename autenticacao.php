@@ -27,7 +27,7 @@ if ($i_user == $i_pw && in_array($user , $usuarios)) {
 	
 	$_SESSION['user'] = $user;
 
-	header('location: index.php');
+	header('location: do_login.php');
 }else{
 		header('location: login.php');
 }
