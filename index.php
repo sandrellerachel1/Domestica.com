@@ -66,13 +66,13 @@
 	<div id="bg"></div>
 	<div class="box"></div>
 	  <img src="">
-	  <a href="" id="close">X</a>
+	  <a href="" id="close"></a>
 	<center><div id="menu">
 		<ul>
 			<li><a href="home.html">Home</a></li>
 			<li><a href="cadastrar.html">Cadastrar</a></li>
 			<li><a href="login.php">Entrar</a></li>
-			<li><a href="index.html">Sobre</a></li>
+			<li><a href="modal.html">Sobre</a></li>
 
 		</ul>
 		
@@ -92,7 +92,7 @@ if (!isset($_SESSION['user'])) {
 
   }
 
-   echo "Bem vindo";
+   echo "BEM VINDO";
 
 ?>
 <h2><center><a href="sair.php">sair</a></center></h2>
