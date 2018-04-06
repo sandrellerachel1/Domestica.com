@@ -3,63 +3,11 @@
 <head>
 	<meta charset="UTF-8">
 	<title>One World Domestic</title>
-	<style>
-		 body{
-      margin: 0;
-      background-image:url(h.jpg);
-      background-attachment: fixed;
-      background-size: 100%;
-      background-repeat: no-repeat;
-      background-color: white;
-      
-    }
-    
-    #menu {
-      position:height fixed;
-      top: 0;
-      z-index: 99;
-      height: 100%;
-    }
-    
-    #menu ul{
-      margin: 0;
-      background-color: black;
-      list-style: none;
-    }
-    #menu ul li {
-      display: inline;
-    }
-    #menu ul li a{
-      padding: 10px 10px;
-      display: inline-block;
-
-      color: white;
-      text-decoration: none;
-    }
-    #menu ul li a:hover{
-        color: red;
-    }
-    #Corpo {
-      width: 100%; height: 1000px;
-    }
-    #rodape ul{
-      margin: 0;
-      background-color: black;
-      list-style: none;
-    }
-    #rodape ul li {
-      display: inline;
-    }
-    #rodape ul li a{
-      padding: 10px 20px;
-      display: inline-block;
-      color: white;
-      text-decoration: none;
-    }
-    #rodape ul li a:hover{
-        color: red;
-    }
-	</style>
+	<link rel="stylesheet" type="text/css" href="style.css">	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>	
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 </head>
 <body>
 <div id="bg"></div>
@@ -71,7 +19,7 @@
 			<li><a href="home.html">Home</a></li>
 			<li><a href="cadastrar.html">Cadastrar</a></li>
 			<li><a href="login.php">Entrar</a></li>
-			<li><a href="modal.html">Sobre</a></li>
+			<li class="logout"><a href="modal.html">Sobre</a></li>
 
 		</ul>
 		
@@ -94,3 +42,52 @@
 
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="jumbotron text-center">
+  <h1>My First Bootstrap Page</h1>
+  <p>Resize this responsive page to see the effect!</p> 
+</div>
+  
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <h3>Column 1</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Column 2</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Column 3</h3>        
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
+
