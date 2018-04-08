@@ -10,8 +10,9 @@ body{
       top: 0;
       z-index: 99;
       height: 100%;
+
     }
-    
+   
     #menu ul{
       margin: 0;
       background-color: black;
@@ -50,9 +51,17 @@ body{
     #rodape ul li a:hover{
         color: red;
     }
-    .logout{
+   .logout{
       left: 30px;
     }
     .jumbotron {
     margin-bottom: 0px!important;
+    background-image: url(f7.jpg);
+
 }
+ input{
+  margin-bottom: 25px!important;
+ }
+ .style1 td{
+  margin-bottom: 1px!important;
+ }

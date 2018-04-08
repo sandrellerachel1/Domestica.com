@@ -26,11 +26,10 @@ if (!isset($_SESSION['user'])) {
 <body>
 	<div class="jumbotron text-center">
   <h1>One World Domestic</h1>
-  <p>Resize this responsive page to see the effect!</p> 
+   <p>Um caso de Amor com a Limpeza.</p> 
 </div>
 
-	<nav class="navbar navbar-default">
-</nav>
+	
   
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
