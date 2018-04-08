@@ -32,10 +32,10 @@
   </div>
 </nav>
 
-		<form action="autenticacao.php" method="POST">
+		<form action="autenticacao.php" method="POST"><center>
 				<input type="text" name="usuario" placeholder="login" required > <br>
 				<input type="password" name="senha" placeholder="Senha" required > <br>
-				<input type="submit" value="Login"> 
+				<input type="submit" value="Login"> </center>
 		</form>
 	
 
