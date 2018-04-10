@@ -1,17 +1,3 @@
-<?php
-
-
-session_start();
-
-if (!isset($_SESSION['user'])) {
-
-   header('location: login.php');
-
-  }
-
-   echo "BEM VINDO";
-
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -44,13 +30,14 @@ if (!isset($_SESSION['user'])) {
   </div>
 </nav>
 
-		
-			
-	
-
 	<div id="Corpo">
-
-</div>
+     
+      <?php
+include "aberto.php";
+login ($_post['u'], $_post['p']); 
+ ?>
+ 
+</div></div>
 
 	<div id="rodape">
 	<center><ul> <div class=footer></div>
