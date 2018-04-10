@@ -44,13 +44,7 @@
 
 </div>
 
-		<div id="rodape">
-	<center><ul> <div class=footer></div>
-			<td><li><a>Fabiana Nayara da Silva Bezerra  <br>(fnfabianabe@gmail.com) <br> - (81) 9 8583-5379</a></li></td> 
-		  <td><li><a>Janio Vinicius Ramos Cajueiro  <br>(janiovinicius17@gmail.com) <br> -(81) 9 8676-9119</a></li></td> 
-		 	<td><li><a>Sandrelle Rachel Rodrigues Bezerra  <br>(sandrellesantos23@gmail.com) <br> - (81) 9 9495-9361</a></li></td> 
-			<td><li><a>Suellen Barbosa da Cruz <br>(suellenbarbosa.c@hotmail.com) <br> - (81) 9 8971-5026</a></li></td> 
-		</ul></center>
+	
 	
 	</div>
 
