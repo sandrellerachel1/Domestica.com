@@ -9,7 +9,8 @@ function login($user,$senha){
 	}
 
 	if(in_array($usuario, $usuarios)){
-		$_SESSION['usuario'] = $usuario;
+		$_SESSION['user'] = $usuario;
+	
 		return true;
 	}
 	return false;
@@ -17,7 +18,7 @@ function login($user,$senha){
 
 
 function logado(){
-	return isset($_SESSION['usuario']);
+	return isset($_SESSION['user']);
 }
 
 ?>

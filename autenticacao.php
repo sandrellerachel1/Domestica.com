@@ -5,7 +5,7 @@ $user = $_POST['usuario'];
 $senha = $_POST['senha'];
 
 if(login($user,$senha)){
-	header('location:aberto.php');
+	header('location:entrando.php');
 }
 
 else{
