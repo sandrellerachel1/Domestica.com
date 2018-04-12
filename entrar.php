@@ -3,7 +3,7 @@
 include 'init.php';
 
 if(logado($_SESSION['usuario'])){
-	header('location:pusuario.php');
+	header('location:aberto.php');
 }
 
 else{
