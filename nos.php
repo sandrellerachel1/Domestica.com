@@ -56,22 +56,14 @@
 
    
         <div id="Corpo">
-<center>
-   <h1 id="login">Login</h1>
-<form id="login" action="ala.php" method="POST">
-  <table>
-    <tr>
-    <td>Login: </td>
-    <td><input type="text" name="login" placeholder="login"></td>
-    </tr>
-    <tr>
-    <td>Senha: </td>
-    <td><input type="password" name="senha" placeholder="Senha"></td>
-    </tr>
-  </table>
-  <input id="enviar" type="submit" value="Enviar">
+<h2 id="logado">Digite algumas informações</h2>
+<form id="logado" action="adiciona.php" method="POST">
+  <input type="text" name="nome" placeholder="Digite seu nome"><br><br>
+  <input type="text" name="Tipo_domestico" placeholder="Digite seu Tipo de Trabalho Domestico"><br><br>
+  <input id="envia" type="submit" value="enviar">
 </form>
-  </center>
+<a id="sair" href="logout.php">Sair</a>
+  
   </div>
    
 

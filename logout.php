@@ -1,7 +1,9 @@
 <?php
+
 include 'init.php';
 
-unset($_SESSION['usuario']);
+unset($_SESSION['user']);
 
 header('location:login.php');
+
 ?>
