@@ -197,6 +197,7 @@ p {
 .row {
     margin-right: -15px;
     margin-left: -15px;
+    flex-wrap: wrap;
 }
 #footer{
 	padding-top: 30px;
@@ -227,4 +228,17 @@ form {
 #login tr td{
 	height:50px;
 	width:100px;
+}
+.team-member {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.mx-auto rounded-circle {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    border-radius: 50% !important;
+    height: 200px;
+    vertical-align: middle;
+    border-style: none;
 }
