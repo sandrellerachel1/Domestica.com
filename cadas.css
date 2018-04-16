@@ -211,8 +211,8 @@ form {
 }
 #Corpo {
       width: 100%; 
-      height: 500px;
-      margin-top: 100px;
+      height: 700px;
+      margin-top: 200px;
     }
 #cadastro{
 	padding-top: 100px;
@@ -229,16 +229,34 @@ form {
 	height:50px;
 	width:100px;
 }
-.team-member {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+
+.container {
+    width: 170px;
 }
-.mx-auto rounded-circle {
-    margin-left: auto !important;
-    margin-right: auto !important;
-    border-radius: 50% !important;
-    height: 200px;
-    vertical-align: middle;
-    border-style: none;
+.recent-work-wrap {
+    position: 100px;
+    width: 350px;
+    right: 40px;
+    margin:200px;
+
+
 }
+.img-responsive{
+display:block;
+max-width:400px;
+max-height:400px;
+width:300px;
+
+}
+.col-md-3 {
+    width: 50%;
+}
+
+.img-responsive1{
+display:block;
+max-width:400px;
+max-height:400px;
+width:300px;
+
+}
+
