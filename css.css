@@ -53,7 +53,7 @@ button {
 }
 .navbar>.container .navbar-brand {
     margin-left: 0;
-    color: white;
+    color:#ffe100;
 }
 
 .navbar-fixed-top .navbar-brand {
@@ -146,8 +146,8 @@ li.dropdown {
 }
 
 
-#feature{
-	background: f2f2f2;
+section#feature{
+	background: #00faff;
 	padding-bottom: 40px;
 }
 body section {

@@ -100,12 +100,12 @@
         <div class="container">
             <div class="center wow fadeInDown">
                 <h2>Tipos de Trabalhos Domesticos</h2>
-                <p class="lead">Conheça os Serviços que são ofericdos para você.</p>
+                <p class="lead">Conheça os Serviços que são oferecidos para você.</p>
             </div>
             
 
             <div class="row">
-                <div class="col-xs-12 col-sm-4 col-md-3">
+                <div class="col-md-4">
                     <div class="recent-work-wrap">
                         <img class="img-responsive" src="imagens/trabalhos/diarista.jpg" alt="">
                         <div class="overlay">
@@ -119,7 +119,7 @@
                 </div> 
             
 
-                <div class="col-xs-12 col-sm-4 col-md-3">
+                <div class="col-md-4">
                     <div class="recent-work-wrap">
                         <img class="img-responsive" src="imagens/trabalhos/jardineiro.jpg" alt="">
                         <div class="overlay">
@@ -132,7 +132,7 @@
                     </div>
                 </div> 
 
-                <div class="col-xs-12 col-sm-4 col-md-3">
+                <div class="col-md-4">
                     <div class="recent-work-wrap">
                         <img class="img-responsive" src="imagens/trabalhos/cuidador.jpg" alt="">
                         <div class="overlay">
