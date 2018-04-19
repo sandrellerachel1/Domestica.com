@@ -71,7 +71,7 @@
                         <div class="feature-wrap">
                         <i class="far fa-search"></i>
                             <h2>Encontre o Profissional Certo</h2>
-                            <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
+                            <h3>Diarista, Jardineiro, Cuidador de Idoso.. são várias opções de profissionais, selecione o mais qualificado, para lhe ajudar no seu dia-a-dia.</h3>
                         </div>
                     </div>
 
@@ -79,7 +79,7 @@
                         <div class="feature-wrap">
                            <i class="fas fa-mobile"></i>
                             <h2>Troque Informações</h2>
-                            <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
+                            <h3>Entre em contato diretamente com o nosso profissional da área escolhida.Facilitando a sua comunicação com os nossos profissionais.</h3>
                         </div>
                     </div>
 
@@ -87,7 +87,7 @@
                         <div class="feature-wrap">
                             <i class="fas fa-thumbs-up"></i>
                             <h2>Avalie o Nosso Profissional</h2>
-                            <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
+                            <h3>Nos conte como foi a sua experiencia com o nosso profissional e ajude a manter os melhores profissionais na nossa empresa.</h3>
                         </div>
                     </div>
 
@@ -100,7 +100,7 @@
         <div class="container">
             <div class="center wow fadeInDown">
                 <h2>Tipos de Trabalhos Domesticos</h2>
-                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
+                <p class="lead">Conheça os Serviços que são ofericdos para você.</p>
             </div>
             
 
