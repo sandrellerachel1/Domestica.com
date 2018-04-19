@@ -137,8 +137,15 @@ li.dropdown {
 
 .corpo{
 	width: 100%;
-	height: 700px;
+	height: 1050px;
 }
+.corpo div{
+	height: 400px;
+	margin-top:350px;
+
+}
+
+
 #feature{
 	background: f2f2f2;
 	padding-bottom: 40px;
