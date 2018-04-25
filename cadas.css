@@ -211,8 +211,8 @@ form {
 }
 #Corpo {
       width: 100%; 
-      height: 700px;
-      margin-top: 200px;
+      height:900px;
+      margin-top:0px;
     }
 #cadastro{
 	padding-top: 100px;

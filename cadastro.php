@@ -5,7 +5,7 @@ $b = $_POST['senha'];
 $m = $_POST['nome'];
 $n = $_POST['email'];
 
-$c = $a."-".$b;
+$c = $a."-".$b."-".$m."-".$n;
 $d = file('dados.csv');
 $d[] = $c."\n";
 $d_string = implode('', $d);
