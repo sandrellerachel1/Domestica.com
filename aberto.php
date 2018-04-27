@@ -30,7 +30,7 @@ if (!isset($_SESSION['user'])) {
     header('location: login.php');
 }
 
-echo "Seja Bem Vindo " ;
+echo "Seja Bem Vindo" ;
 
 ?>
 </div>
