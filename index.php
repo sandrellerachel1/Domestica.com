@@ -34,7 +34,7 @@
                             <div class="recent-work-inner">
                                 <h3><a href="#">Diarista</a> </h3>
                                 <p>Limpeza de Qualidade para sua moradia.</p>
-                                <a class="preview" href="imagens/trabalhos/diarista.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                              
                             </div> 
                         </div>
                     </div>
@@ -48,7 +48,7 @@
                             <div class="recent-work-inner">
                                 <h3><a href="#">Jardineiro</a></h3>
                                 <p>Embelezamento, cultivo e manutenção de plantas.</p>
-                                <a class="preview" href="imagens/trabalhos/jardineiro.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                                
                             </div> 
                         </div>
                     </div>
@@ -61,7 +61,7 @@
                             <div class="recent-work-inner">
                                 <h3><a href="#">Cuidador de Idosos </a></h3>
                                 <p>Auxiliar no dia-a-dia do idoso.</p>
-                                <a class="preview" href="imagens/trabalhos/cuidador.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                                
                             </div> 
                         </div>
                     </div>
@@ -75,7 +75,7 @@
                             <div class="recent-work-inner">
                                 <h3><a href="#">Cuidador de Pets</a> </h3>
                                 <p>Limpeza de Qualidade para sua moradia.</p>
-                                <a class="preview" href="imagens/trabalhos/diarista.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                                
                             </div> 
                         </div>
                     </div>
@@ -89,7 +89,7 @@
                             <div class="recent-work-inner">
                                 <h3><a href="#">Cozinheiro</a> </h3>
                                 <p>Limpeza de Qualidade para sua moradia.</p>
-                                <a class="preview" href="imagens/trabalhos/diarista.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                                
                             </div> 
                         </div>
                     </div>
@@ -102,7 +102,7 @@
                             <div class="recent-work-inner">
                                 <h3><a href="#">Pintor</a> </h3>
                                 <p>Limpeza de Qualidade para sua moradia.</p>
-                                <a class="preview" href="imagens/trabalhos/diarista.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                                
                             </div> 
                         </div>
                     </div>
