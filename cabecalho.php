@@ -43,8 +43,8 @@
 					
 				</div>
 				</li>
-                        <li><a href="cadastrar.php">Cadastrar</a></li> 
-                        <li><a href="login.php"><i class="fas fa-sign-in-alt"></i>Login</a></li>                        
+                        <li><a href="cadastrar.php">Quero Trabalhar</a></li> 
+                        <li><a href="login.php"><i class="fas fa-sign-in-alt"></i>Entrar</a></li>                        
                     </ul>
                 </div>
             </div>
