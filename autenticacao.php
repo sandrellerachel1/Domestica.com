@@ -9,6 +9,6 @@ if(login($user,$senha)){
 }
 
 else{
-	header('location:login.php');
+	header('location:ei.php');
 }
 ?>

@@ -8,7 +8,7 @@ $pw = $_POST['senha'];
 if (login($user, $pw)) {
     header('location:aberto.php');
 } else {
-    header('location:login.php');
+    header('location:ei.php');
 }
 
 ?>

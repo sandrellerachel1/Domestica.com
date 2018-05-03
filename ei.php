@@ -1,9 +1,12 @@
-<html lang="en-US" prefix="og: http://ogp.me/ns#"><head>
+<html lang="en"><head>
 <meta charset="UTF-8">
-<title>Mih Store a Flat Ecommerce Bootstrap Responsive Web Template by w3layouts</title>
+<title>Login</title>
 
 
-<link rel="stylesheet" href="https://w3layouts.com/wp-content/themes/w3layouts/css/style-web.css?18Nov2016">
+<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://w3layouts.com/wp-content/themes/w3layouts/css/style-web.css?18Nov2016">
 <link href="//fonts.googleapis.com/css?family=Open+Sans:400,700,800" rel="stylesheet" type="text/css">
 <link href="//fonts.googleapis.com/css?family=Oxygen:400,700,300" rel="stylesheet" type="text/css">
 <link href="https://w3layouts.com/wp-content/themes/w3layouts/fonts/icons.css" rel="stylesheet" type="text/css">
@@ -17,12 +20,12 @@
 
     <link rel="stylesheet" type="text/css" href="css.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
-	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<link href="css/animate.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link href="css/animate.min.css" rel="stylesheet">
     <link href="css/prettyPhoto.css" rel="stylesheet">      
-	<link href="css/main.css" rel="stylesheet">
-	<link href="css/responsive.css" rel="stylesheet">
-	
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    
 
 
 <body>
@@ -47,14 +50,14 @@ include 'index.php';
 												<input type="hidden" name="sendbacktopage" value="/mih-store-a-flat-ecommerce-bootstrap-responsive-web-template/?_ga=2.203227605.574189616.1525304541-907112354.1525304541">
 												<div class="signin-rit">
 													<span class="checkbox1">
-														 <label class="checkbox"><input type="checkbox" name="checkbox" checked="">Remember me</label>
+														 <label class="checkbox"><input type="checkbox" name="checkbox" checked="">Lembrar-me</label>
 													</span>
-													<a class="forgot play-icon popup-with-zoom-anim" href="#small-dialog3">Forgot Password?</a>
+													<a class="forgot play-icon popup-with-zoom-anim" href="#small-dialog3">Esqueceu a Senha?</a>
 													<div class="clear"> </div>
 												</div>
 												<input type="submit" value="Login">
 											</form>
-											<p>Novo?<a href="#small-dialog2" class="play-icon popup-with-zoom-anim">Create Account</a></p>
+											<p>Novo?<a href="cadastrar.php" class="play-icon popup-with-zoom-anim">Cadastre-se</a></p>
 										</div>
 
 

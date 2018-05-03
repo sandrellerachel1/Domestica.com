@@ -147,7 +147,7 @@ li.dropdown {
 
 
 section#feature{
-	background: #00faff;
+	background:#dedede;
 	padding-bottom: 40px;
 }
 body section {
@@ -161,13 +161,14 @@ body section {
 	margin-left: auto;
 }
 .center {
+    margin-top: 70px;
 	text-align: center;
 	padding-bottom: 55px;
 	font-family:FontAwesome;
 }
 .center h2{
 	font-size: 36px;
-	margin-top: 0;
+	margin-top: 70px;
 	margin-bottom: 20px;
 }
 .lead{
