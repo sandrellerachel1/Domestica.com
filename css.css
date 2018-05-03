@@ -206,8 +206,42 @@ p{
 #footer hover{
 	color: red;
 }
-#trabalhos {
-margin-top:50px;
+
+
+
+
+
+
+
+
+.mfp-close-btn-in .mfp-close {
+    background: none;
+}
+button.mfp-close, button.mfp-arrow {
+    overflow: visible;
+    cursor: pointer;
+    border: 0;
+    -webkit-appearance: none;
+    display: block;
+    padding: 0;
+    z-index: 1046;
+}
+.mfp-close {
+    width: 44px;
+    height: 44px;
+    line-height: 44px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    text-decoration: none;
+    text-align: center;
+    padding: 0 0 18px 10px;
+    color: #FFF;
+    font-style: normal;
+    font-size: 28px;
+    outline: none;
 }
 
-
+.mfp-close{
+user-select: none;
+}
