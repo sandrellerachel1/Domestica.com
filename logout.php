@@ -3,5 +3,5 @@ include 'init.php';
 
 unset($_SESSION['usuario']);
 
-header('location:login.php');
+header('location:ei.php');
 ?>

@@ -42,6 +42,7 @@
                         <li><a href="modal.php">Sobre Nós</a></li>
                         <li><a href="cadastrar.php">Cadastrar</a></li>
                         <li><a href="ei.php">Login</a></li>
+                        <li><a href="formulario.php">Fale Conosco</a></li>
                     </ul>
                 </div>
             </div>

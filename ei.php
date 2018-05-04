@@ -44,7 +44,7 @@ include 'index.php';
 									</div>
 									<div class="modal-body modal-spa">
 										<div class="login-form">
-											<form action="autetincacao.php" method="post">
+											<form action="ala.php" method="post">
 												<input type="text" class="user" name="loginid" placeholder="Email" required="">
 												<input type="password" class="lock" name="Userpassword" placeholder="password" required="" value="">
 												<input type="hidden" name="sendbacktopage" value="/mih-store-a-flat-ecommerce-bootstrap-responsive-web-template/?_ga=2.203227605.574189616.1525304541-907112354.1525304541">
@@ -63,7 +63,8 @@ include 'index.php';
 
 									</div>
 								</div>
-						<a href="index.php" title="Close (Esc)" type="button" class="mfp-close">×</a></div></div></div></div>
+						<a href="index.php" type="button" class="mfp-close">×</a></div></div></div></div>
+		
 
 
 

@@ -39,12 +39,12 @@
             
 
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <div class="recent-work-wrap">
                         <img class="img-responsive" src="imagens/trabalhos/diarista.jpg" alt="">
                         <div class="overlay">
                             <div class="recent-work-inner">
-                                <h3><a href="#">Diarista</a> </h3>
+                                <h3><a href="#">Empregado(a) Domestico(a)</a> </h3>
                                 <p>Limpeza de Qualidade para sua moradia.</p>
                               
                             </div> 
@@ -53,12 +53,12 @@
                 </div> 
             
 
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <div class="recent-work-wrap">
                         <img class="img-responsive" src="imagens/trabalhos/jardineiro.jpg" alt="">
                         <div class="overlay">
                             <div class="recent-work-inner">
-                                <h3><a href="#">Jardineiro</a></h3>
+                                <h3><a href="#">Jardineiro(a)</a></h3>
                                 <p>Embelezamento, cultivo e manutenção de plantas.</p>
                                 
                             </div> 
@@ -66,12 +66,25 @@
                     </div>
                 </div> 
 
-                <div class="col-md-4">
+                <div class="col-md-3">
+                    <div class="recent-work-wrap">
+                        <img class="img-responsive" src="imagens/trabalhos/pintor.jpg" alt="">
+                        <div class="overlay">
+                            <div class="recent-work-inner">
+                                <h3><a href="#">Pintor(a)</a> </h3>
+                                <p>Melhor pitura para a sua casa.</p>
+                                
+                            </div> 
+                        </div>
+                    </div>
+                </div> 
+
+                <div class="col-md-3">
                     <div class="recent-work-wrap">
                         <img class="img-responsive" src="imagens/trabalhos/idoso.jpg" alt="">
                         <div class="overlay">
                             <div class="recent-work-inner">
-                                <h3><a href="#">Cuidador de Idosos </a></h3>
+                                <h3><a href="#">Cuidador(a) de Idosos </a></h3>
                                 <p>Auxiliar no dia-a-dia do idoso.</p>
                                 
                             </div> 
@@ -79,51 +92,62 @@
                     </div>
          </div>
 
-            
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <div class="recent-work-wrap">
                         <img class="img-responsive" src="imagens/trabalhos/cuidadorp.jpg" alt="">
                         <div class="overlay">
                             <div class="recent-work-inner">
-                                <h3><a href="#">Cuidador de Pets</a> </h3>
+                                <h3><a href="#">Cuidador(a) de Pets</a> </h3>
                                 <p>Limpeza de Qualidade para sua moradia.</p>
                                 
                             </div> 
                         </div>
                     </div>
-                </div> 
+                </div>
 
-
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <div class="recent-work-wrap">
                         <img class="img-responsive" src="imagens/trabalhos/cozinheiro.jpg" alt="">
                         <div class="overlay">
                             <div class="recent-work-inner">
-                                <h3><a href="#">Cozinheiro</a> </h3>
-                                <p>Limpeza de Qualidade para sua moradia.</p>
+                                <h3><a href="#">Cozinheiro(a)</a> </h3>
+                                <p>Faça a sua alimentãção com tranquilidade..</p>
                                 
                             </div> 
                         </div>
                     </div>
                 </div> 
             
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <div class="recent-work-wrap">
-                        <img class="img-responsive" src="imagens/trabalhos/pintor.jpg" alt="">
+                        <img class="img-responsive" src="imagens/trabalhos/babá.jpg" alt="">
                         <div class="overlay">
                             <div class="recent-work-inner">
-                                <h3><a href="#">Pintor</a> </h3>
-                                <p>Limpeza de Qualidade para sua moradia.</p>
+                                <h3><a href="#">Babá</a> </h3>
+                                <p>Confiança e Segurança no cuidado da sua criança.</p>
+
+
+                                
+                            </div> 
+                        </div>
+                    </div>
+                </div>         
+              <div class="col-md-3">
+                    <div class="recent-work-wrap">
+                        <img class="img-responsive" src="imagens/trabalhos/engomadora.jpg" alt="">
+                        <div class="overlay">
+                            <div class="recent-work-inner">
+                                <h3><a href="#">Emgomador(a)</a></h3>
+                                <p>Melhor cuidado com suas Roupas.</p>
                                 
                             </div> 
                         </div>
                     </div>
                 </div> 
-            
 
 
     </div>   
-</div>
+
 </section>
 
     <section id="feature" >
@@ -147,7 +171,7 @@
 
         <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms" style="visibility: visible; animation-duration: 1000ms; animation-delay: 600ms; animation-name: fadeInDown;">
                         <div class="feature-wrap">
-                           <i class="fas fa-mobile"></i>
+                          <a href="formulario.php"> <i class="fas fa-mobile"></i></a>
                             <h2>Troque Informações</h2>
                             <h3>Entre em contato diretamente com o nosso profissional da área escolhida.Facilitando a sua comunicação com os nossos profissionais.</h3>
                         </div>
@@ -155,7 +179,7 @@
 
                     <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms" style="visibility: visible; animation-duration: 1000ms; animation-delay: 600ms; animation-name: fadeInDown;">
                         <div class="feature-wrap">
-                            <i class="fas fa-thumbs-up"></i>
+                            <a href="avaliar.php"><i class="fas fa-thumbs-up"></i></a>
                             <h2>Avalie o Nosso Profissional</h2>
                             <h3>Nos conte como foi a sua experiencia com o nosso profissional e ajude a manter os melhores profissionais na nossa empresa.</h3>
                         </div>
