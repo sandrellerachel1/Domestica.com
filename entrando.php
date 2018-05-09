@@ -7,7 +7,7 @@ if(logado($_SESSION['user'])){
 }
 
 else{
-	header('location:ei.php');
+	header('location:login.php');
 }
 
 ?>
