@@ -16,7 +16,8 @@
 
 
       </head>
-  <body class="homepage">   
+  <body class="homepage">  
+
     <header id="header">
         <nav class="navbar navbar-fixed-top" role="banner">
             <div class="container">
@@ -42,6 +43,7 @@
           
         </div>
         </li>
+
                         <li><a href="cadastrar.html">Cadastrar</a></li> 
                         <li><a href="login.php"><i class="fas fa-sign-in-alt"></i>Login</a></li>                        
                     </ul>
@@ -58,7 +60,7 @@
         <div id="Corpo">
 
    <center><form id="cadastro" required name="cadastro" method="post" action="cadastro.php">
-      <table width="625" border="0">
+      <table background="gainsboro" class="tabela" width="625" border="0">
       <tr><center>
           <h2>Anuncie seu Serviço</h2>
           <p> 
@@ -86,6 +88,7 @@
               <img src="https://www.casaecafe.com/_assets/site/templates/bootstrap/img/como-profissional-icone-03.f2a4ae839a740f37df26b8cebbd22e7a.png">
               <h3>Nunca deixe de responder</h3></li></ul></table>
               <div class="col-md-6 hidden-xs hidden-sm text-center">
+       
         <div class="form-row">
     <div class="form-group col-md-5">
       <label for="inputEmail4">Email</label>
@@ -95,7 +98,7 @@
       <label for="inputPassword4">Senha</label>
       <input type="password" class="form-control" id="inputPassword4" placeholder="Senha">
     </div>
-  </div>
+  
   <div class="form-group col-md-10">
     <label for="inputNomecompleto">Nome Completo</label>
     <input type="text" class="form-control" id="inputNomecompleto" placeholder="">
@@ -122,16 +125,14 @@
    <div class="col-md-5">
     <div class="form-group pretensao-form-group">
     <label for="prentesao">Pretensão</label>
-    <div class="row">
     <div class="form-control-validation">
-    <div class="input-group">
-    <span class="input-group-addon">R$</span>
-    <input class="form-control" id="pretensao" name="pretensao" value="" placeholder="0.000" data-parsley-moeda="" data-parsley-min="25" data-parsley-min-message="Atenção: sua pretensão está abaixo da média da região. Sugerimos aumentá-lo para receber melhores oportunidades." data-parsley-max-message="Atenção: sua pretensão está muito acima da média da região." data-parsley-id="46" type="tel">
+      <input class="form-control" id="dinheiro" name="dinheiro" placeholder="|R$| 100,0" value="" data-parsley-required="" data-parsley-telefone="" data-parsley-id="93" type="dinheiro">
+    
+    
     </div>
     </div>
     </div>
-    </div>
-    </div>
+    
     <div class="form-group col-md-5">
 <label for="inputSexualidade">Frequência</label>
 <select id="inputSexualidade" class="form-control">
@@ -144,7 +145,7 @@
 </select>
 </div>
 
-<div class="form-row">
+
 <div class="form-group col-md-5">
 <label for="inputCity">Cidade</label>
 <input type="text" class="form-control" id="inputCity">
