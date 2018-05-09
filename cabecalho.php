@@ -56,7 +56,6 @@
 					
 				</div>
 				</li>
-                        <li><a href="formulario.php">Fale Conosco</a></li>
                         <li><a href="cadastrar.php">Quero Trabalhar</a></li> 
                         <li><a href="ei.php"><i class="fas fa-sign-in-alt"></i>Entrar</a></li>                        
                     </ul>

@@ -3,7 +3,7 @@
 include 'init.php';
 
 if (!logado()) {
-    header('location:ei.php');
+    header('location:login.php');
 } else {
     header('location:nos.php');
 }
