@@ -7,61 +7,49 @@
     <title>One World Domestic</title>
     <link rel="stylesheet" type="text/css" href="cadas.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="css/font-awesome.min.css">
-  <link href="css/animate.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link href="css/animate.min.css" rel="stylesheet">
     <link href="css/prettyPhoto.css" rel="stylesheet">      
-  <link href="css/main.css" rel="stylesheet">
-  <link href="css/responsive.css" rel="stylesheet">
-  
-
-
-      </head>
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+  </head>
   <body class="homepage">  
-
     <header id="header">
-        <nav class="navbar navbar-fixed-top" role="banner">
-            <div class="container">
-                <div class="navbar-header">
-                  
-                    <a class="navbar-brand" href="index.php">One World Domestic</a>
-                    
+      <nav class="navbar navbar-fixed-top" role="banner">
+        <div class="container">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="index.php">One World Domestic</a>
+          </div>
+          <div class="collapse navbar-collapse navbar-right">
+            <ul class="nav navbar-nav">
+              <li><a href="index.php" ><i class="fas fa-home"></i>Home</a></li>
+              <li><a href="modal.html">Sobre Nós</a></li>
+              <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">Tipos de Trabalhos</a>
+                <div class="dropdown-content">
+                  <a href="#" style="color: black;">Diarista</a>
+                  <a href="#" style="color: black;">jardineiro</a>
+                  <a href="#" style="color: black;">Cuidador de Idoso</a> 
+                  <a href="#" style="color: black;">Cuidador de Pets</a>
+                  <a href="#" style="color: black;">Cozinheiro</a>
                 </div>
-
-    <div class="collapse navbar-collapse navbar-right">
-                    <ul class="nav navbar-nav">
-                        
-                        <li><a href="index.php" ><i class="fas fa-home"></i>Home</a></li>
-                        <li><a href="modal.html">Sobre Nós</a></li>
-                        <li class="dropdown">
-        <a href="javascript:void(0)" class="dropbtn">Tipos de Trabalhos</a>
-        <div class="dropdown-content">
-          <a href="#" style="color: black;">Diarista</a>
-          <a href="#" style="color: black;">jardineiro</a>
-          <a href="#" style="color: black;">Cuidador de Idoso</a> 
-          <a href="#" style="color: black;">Cuidador de Pets</a>
-          <a href="#" style="color: black;">Cozinheiro</a>
-          
+              </li>
+              <li><a href="cadastrar.html">Cadastrar</a></li> 
+              <li><a href="login.php"><i class="fas fa-sign-in-alt"></i>Login</a></li>                        
+            </ul>
+          </div>
         </div>
-        </li>
-
-                        <li><a href="cadastrar.html">Cadastrar</a></li> 
-                        <li><a href="login.php"><i class="fas fa-sign-in-alt"></i>Login</a></li>                        
-                    </ul>
-                </div>
-            </div>
-
-        </nav>
-
-        
+      </nav>
     </header>
-   
 
-   <section id="page">
-        <div id="Corpo">
-
-   <center><form id="cadastro" required name="cadastro" method="post" action="cadastro.php">
-      <table background="gainsboro" class="tabela" width="625" border="0">
-      <tr><center>
+    <section id="page">
+      <div id="Corpo">
+        <center>
+          <form id="cadastro" required name="cadastro" method="post" action="cadastro.php">
+      
+            <table background="gainsboro" class="tabela" width="625" border="0">
+            <tr>
+              <center>
           <h2>Anuncie seu Serviço</h2>
           <p> 
             Seja
@@ -70,7 +58,7 @@
             <strong>clientes</strong>
             perto da sua casa.
           </p></center>
-      </center></tr>
+        </center></tr>
       <div class="col-md-6 hidden-xs hidden-sm text-center">
         <h2>Como funciona</h2>
         <br>
@@ -90,22 +78,15 @@
               <div class="col-md-6 hidden-xs hidden-sm text-center">
        
         <div class="form-row">
-    <div class="form-group col-md-5">
-      <label for="inputEmail4">Email</label>
-      <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
-    </div>
-    <div class="form-group col-md-5">
-      <label for="inputPassword4">Senha</label>
-      <input type="password" class="form-control" id="inputPassword4" placeholder="Senha">
-    </div>
+   
   
   <div class="form-group col-md-10">
     <label for="inputNomecompleto">Nome Completo</label>
-    <input type="text" class="form-control" id="inputNomecompleto" placeholder="">
+    <input type="text" name="nome" class="form-control" id="inputNomecompleto" placeholder="">
   </div>
   <div class="form-group col-md-5">
 <label for="inputSexualidade">Como voçê se considera</label>
-<select id="inputSexualidade" class="form-control">
+<select id="inputSexualidade" name="sexualidade" class="form-control">
   <option selected>Escolha Uma Opção</option>
         <option>Masculino</option>
         <option>Feminino</option>
@@ -135,7 +116,7 @@
     
     <div class="form-group col-md-5">
 <label for="inputSexualidade">Frequência</label>
-<select id="inputSexualidade" class="form-control">
+<select id="inputSexualidade" name="frequencia" class="form-control">
   <option selected>Selecione....</option>
         <option>Segunda a Sabado </option>
         <option>Segunda a Sexta</option>
@@ -148,11 +129,11 @@
 
 <div class="form-group col-md-5">
 <label for="inputCity">Cidade</label>
-<input type="text" class="form-control" id="inputCity">
+<input type="text" name="cidade" class="form-control" id="inputCity">
 </div>
 <div class="form-group col-md-5">
 <label for="inputCategoria">Escolha uma categoria</label>
-<select id="inputCategoria" class="form-control">
+<select id="inputCategoria" name="trabalho" class="form-control">
   <option selected>Selecione...</option>
         <option>Empregada Domestica</option>
         <option>Cozinheira</option>
@@ -184,7 +165,7 @@
                     <ul class="pull-right">
                         <li><a href="index.php">Home</a></li>
                         <li><a href="modal.html">Sobre Nós</a></li>
-                        <li><a href="cadastrar.html">Cadastrar</a></li>
+                        <li><a href="cadastrar.php">Cadastrar</a></li>
                         <li><a href="login.php">Login</a></li>
                     </ul>
                 </div>

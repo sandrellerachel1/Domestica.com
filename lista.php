@@ -15,14 +15,13 @@ for($i = 0; $i < sizeof($data); $i++ ) {
     <title>Document</title>
 </head>
 <body>
-    <h1>Lista de livros</h1>
+    <br><center><h1>SEJA BEM VINDO</h1></center>
     <table cellpadding="10">
         <?php foreach ($data as $linha => $elemento): ?>
            <tr>
-                <td><?= $elemento[0] ?></td>
-                <td><?= $elemento[1] ?></td>
-                <td><a href="delete.php?linha=<?=$linha?>">Delete</a></td>
-                <td><a href="edit.php?linha=<?=$linha?>">Edit</a></td>
+                <td><?= $elemento[0] ?></td><br>
+                <td><?= $elemento[1] ?></td><br>
+                
             </tr>
         <?php endforeach ?>
     </table>
