@@ -37,15 +37,15 @@
                 <p class="lead">Conheça os Serviços que são oferecidos para você.</p>
             </div>
             
-
+        
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <div class="recent-work-wrap">
                         <img class="img-responsive" src="imagens/trabalhos/diarista.jpg" alt="">
                         <div class="overlay">
                             <div class="recent-work-inner">
-                                <h3><a href="#">Diarista</a> </h3>
-                                <p>Limpeza de Qualidade para sua moradia.</p>
+                                <h3><a href="sei.php">Empregado(a) Domestico(a)</a> </h3>
+                               <a href="sei.php"><button  type="button" class="btn btn-primary">Quero Contatar</button></a>
                               
                             </div> 
                         </div>
@@ -53,77 +53,73 @@
                 </div> 
             
 
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <div class="recent-work-wrap">
                         <img class="img-responsive" src="imagens/trabalhos/jardineiro.jpg" alt="">
                         <div class="overlay">
                             <div class="recent-work-inner">
-                                <h3><a href="#">Jardineiro</a></h3>
-                                <p>Embelezamento, cultivo e manutenção de plantas.</p>
+                                <h3><a href="sei.php">Jardineiro(a)</a></h3>
+                                <a href="sei.php"><button  type="button" class="btn btn-primary">Quero Contatar</button></a>
                                 
                             </div> 
                         </div>
                     </div>
                 </div> 
 
-                <div class="col-md-4">
+                <div class="col-md-3">
+                    <div class="recent-work-wrap">
+                        <img class="img-responsive" src="imagens/trabalhos/pintor.jpg" alt="">
+                        <div class="overlay">
+                            <div class="recent-work-inner">
+                                <h3><a href="sei.php">Pintor(a)</a> </h3>
+                              <a href="sei.php"><button  type="button" class="btn btn-primary">Quero Contatar</button></a>
+                                
+                            </div> 
+                        </div>
+                    </div>
+                </div> 
+                
+
+                <div class="col-md-3">
                     <div class="recent-work-wrap">
                         <img class="img-responsive" src="imagens/trabalhos/idoso.jpg" alt="">
                         <div class="overlay">
                             <div class="recent-work-inner">
-                                <h3><a href="#">Cuidador de Idosos </a></h3>
-                                <p>Auxiliar no dia-a-dia do idoso.</p>
-                                
+                                <h3><a href="sei.php">Cuidador(a) de Idosos </a></h3>
+                            <a href="sei.php"><button  type="button" class="btn btn-primary">Quero Contatar</button></a>
                             </div> 
                         </div>
                     </div>
          </div>
 
-            
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <div class="recent-work-wrap">
                         <img class="img-responsive" src="imagens/trabalhos/cuidadorp.jpg" alt="">
                         <div class="overlay">
                             <div class="recent-work-inner">
-                                <h3><a href="#">Cuidador de Pets</a> </h3>
-                                <p>Limpeza de Qualidade para sua moradia.</p>
+                                <h3><a href="sei.php">Cuidador(a) de Pets</a> </h3>
+                                 <a href="sei.php"><button  type="button" class="btn btn-primary">Quero Contatar</button></a>
                                 
                             </div> 
                         </div>
                     </div>
-                </div> 
+                </div>
 
-
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <div class="recent-work-wrap">
                         <img class="img-responsive" src="imagens/trabalhos/cozinheiro.jpg" alt="">
                         <div class="overlay">
                             <div class="recent-work-inner">
-                                <h3><a href="#">Cozinheiro</a> </h3>
-                                <p>Limpeza de Qualidade para sua moradia.</p>
+                                <h3><a href="sei.php">Cozinheiro(a)</a> </h3>
+                                 <a href="sei.php"><button  type="button" class="btn btn-primary">Quero Contatar</button></a>
                                 
                             </div> 
                         </div>
                     </div>
                 </div> 
-            
-                <div class="col-md-4">
-                    <div class="recent-work-wrap">
-                        <img class="img-responsive" src="imagens/trabalhos/pintor.jpg" alt="">
-                        <div class="overlay">
-                            <div class="recent-work-inner">
-                                <h3><a href="#">Pintor</a> </h3>
-                                <p>Limpeza de Qualidade para sua moradia.</p>
-                                
-                            </div> 
-                        </div>
-                    </div>
-                </div> 
-            
-
-
+           
     </div>   
-</div>
+
 </section>
 
     <section id="feature" >
@@ -147,7 +143,7 @@
 
         <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms" style="visibility: visible; animation-duration: 1000ms; animation-delay: 600ms; animation-name: fadeInDown;">
                         <div class="feature-wrap">
-                           <i class="fas fa-mobile"></i>
+                          <a href="formulario.php"> <i class="fas fa-mobile"></i></a>
                             <h2>Troque Informações</h2>
                             <h3>Entre em contato diretamente com o nosso profissional da área escolhida.Facilitando a sua comunicação com os nossos profissionais.</h3>
                         </div>
@@ -155,7 +151,7 @@
 
                     <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms" style="visibility: visible; animation-duration: 1000ms; animation-delay: 600ms; animation-name: fadeInDown;">
                         <div class="feature-wrap">
-                            <i class="fas fa-thumbs-up"></i>
+                            <a href="avaliar.php"><i class="fas fa-thumbs-up"></i></a>
                             <h2>Avalie o Nosso Profissional</h2>
                             <h3>Nos conte como foi a sua experiencia com o nosso profissional e ajude a manter os melhores profissionais na nossa empresa.</h3>
                         </div>

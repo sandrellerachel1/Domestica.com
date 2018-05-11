@@ -1,26 +1,26 @@
 body{
-	background: #fff;
-	font-family: "Open Sans", Arial,sans-serif;
-	color: black;
-	line-height: 1.6em;
-	font-size: 14px;
-	margin: 0;
+    background: #fff;
+    font-family: "Open Sans", Arial,sans-serif;
+    color: black;
+    line-height: 1.6em;
+    font-size: 14px;
+    margin: 0;
 }
 .navbar-fixed-top{
-	border: none;
-	top: 0;
-	position: fixed;
-	right: 0;
-	left: 0;
-	z-index: 1030;
+    border: none;
+    top: 0;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
 }
 .navbar{
-	border-radius: 0;
-	margin-bottom: 0;
-	background: #333;
-	padding: 15px 0;
-	padding-bottom: 0;
-	min-height: 50px;
+    border-radius: 0;
+    margin-bottom: 0;
+    background: #333;
+    padding: 15px 0;
+    padding-bottom: 0;
+    min-height: 50px;
 
 }
 .navbar-toggle {
@@ -73,7 +73,7 @@ button {
 .collapse {
     display: none;
     visibility: hidden;
-	font-family: FontAwesome;
+    font-family: FontAwesome;
 
 }
 
@@ -127,8 +127,8 @@ li.dropdown {
 
 
 .dropdown-content a:hover {
-	background-color: #f1f1f1;
-	color: black;
+    background-color: #f1f1f1;
+    color: black;
 }
 
 .dropdown:hover .dropdown-content {
@@ -136,76 +136,76 @@ li.dropdown {
 }
 
 .corpo{
-	width: 100%;
-	height: 1050px;
+    width: 100%;
+    height: 1050px;
 }
 .corpo div{
-	height: 400px;
-	margin-top:350px;
+    height: 400px;
+    margin-top:350px;
 
 }
 
 
 section#feature{
-	background:#dedede;
-	padding-bottom: 40px;
+    background:#dedede;
+    padding-bottom: 40px;
 }
 body section {
-	padding: 70px 0;
+    padding: 70px 0;
 }
 .container{
-	;
-	padding-right: 15px;
-	padding-left: 15px;
-	margin-right: auto;
-	margin-left: auto;
+    ;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
 }
 .center {
     margin-top: 70px;
-	text-align: center;
-	padding-bottom: 55px;
-	font-family:FontAwesome;
+    text-align: center;
+    padding-bottom: 55px;
+    font-family:FontAwesome;
 }
 .center h2{
-	font-size: 36px;
-	margin-top: 70px;
-	margin-bottom: 20px;
+    font-size: 36px;
+    margin-top: 70px;
+    margin-bottom: 20px;
 }
 .lead{
-	font-size: 16px;
-	line-height: 24px;
-	font-weight: 400;
-	margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-bottom: 20px;
 }
 p{
-	margin: 0 0 10px;
+    margin: 0 0 10px;
 }
 .row{
-	margin-right: -15px;
-	margin-left: -15px;
+    margin-right: -15px;
+    margin-left: -15px;
 }
 .features{
-	padding: 0;
+    padding: 0;
 }
 
 
 
 
 .feature-wrap{
-	margin-bottom: 35px;
-	overflow: hidden;
-	font-family: FontAwesome;
+    margin-bottom: 35px;
+    overflow: hidden;
+    font-family: FontAwesome;
 }
 
 
 #footer{
-	padding-top: 30px;
-	padding-bottom: 30px;
-	color: #fff;
-	background: #000;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #fff;
+    background: #000;
 }
 #footer hover{
-	color: red;
+    color: red;
 }
 
 
@@ -246,3 +246,10 @@ button.mfp-close, button.mfp-arrow {
 .mfp-close{
 user-select: none;
 }
+.avalia{
+    margin-top:200px;
+    width: 100%;
+    height: 650px;
+
+}
+

@@ -9,8 +9,15 @@
 	</head>
 	<body>
 
+	<div class="container theme-showcase" role="main">
+			<div class="page-header">
+				<h1>Login</h1>
+			</div>
+			<div class="pull-right">
+				<button type="button" class="btn btn-xs btn-success" data-toggle="modal" data-target="#myModalcad">Cadastrar</button>
+			</div>
 
-<div class="modal fade" id="myModalcad" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+<div class="modal fade" id="myModalcad" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" data-target="#myModalcade">
 				<div class="modal-dialog" role="document">
 					<div class="modal-content">
 						<div class="modal-header">
@@ -46,6 +53,5 @@
 		<script type="text/javascript">
 			
 		</script>
-
 	</body>
 </html>

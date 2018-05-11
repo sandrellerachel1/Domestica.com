@@ -38,6 +38,102 @@ include'cabecalho.php';
 ?>
 
 
+
+
+
+
+
+<section id="page">
+      <div id="Corpo">
+        <center>
+          <form id="cadastro" required name="cadastro" method="post" action="email.php">
+      
+            <table background="gainsboro" class="tabela" width="625" border="0">
+            <tr>
+              <center>
+          <h2>Fale Conocsco</h2>
+          <p> 
+           Agradecemos por você querer fazer parte do nosso time , em breve entraremos em contato com você
+          </p></center>
+        </center></tr>
+      <div class="col-md-6 hidden-xs hidden-sm text-center">
+        </table>
+              <div class="col-md-6 hidden-xs hidden-sm text-center">
+       
+        <div class="form-row">
+   
+  
+  <div class="form-group col-md-10">
+    <label for="inputNomecompleto">Nome Completo</label>
+    <input type="text" name="nome" class="form-control" id="inputNomecompleto" placeholder="">
+  </div>
+  
+          
+         <div class="form-group col-md-12">
+         <label for="email">Email</label>
+         <input class="form-control" id="email" name="email" placeholder="example@example" >
+          </div>
+        
+  <div class="form-group col-md-10">
+    <label for="inputNomecompleto">Nos Mande Uma Mensagem</label>
+    <input type="textarea" name="text" class="form-control" id="inputTexto" placeholder="Mensagem">
+  </div>
+          
+
+ </table>
+ <div class="form-group col-md-19">
+  <button type="submit" class="btn btn-primary">Enviar</button>
+  </div>
+    </form>
+    
+  </div>
+  
+  </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <section class="email" >
       <div class="container">
         <div class="row">
@@ -48,7 +144,7 @@ include'cabecalho.php';
         </div>
         <div class="row">
           <div class="col-lg-12">
-            <center><form id="contactForm" name="Enviado, em breve entraremos em contato com você." action="email.php" method="POST" novalidate>
+            <center><form id="contactForm" name="Enviado, em breve entraremos em contato com você." action="email.php" method="POST" novalidate bacground="#DCDCDC">
               <div class="row">
                 <div class="col-md-6">
                   <div class="form-group">
