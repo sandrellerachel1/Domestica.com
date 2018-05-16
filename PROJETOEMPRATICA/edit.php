@@ -5,6 +5,7 @@
     <title>Document</title>
 </head>
 <body>
+  <h1> EDITAR O  CADASTRO <?=$id+1; ?></h1>
 <form action="add.php" method="POST">
 
     <div class="form-row">
@@ -67,6 +68,7 @@
                      <option value="Lavadeira/Engomadeira">Lavadeira/Engomadeira</option>
             </select>
        </div>
+                     <input type="hidden" name="id" value="<?=$id?>">       
                      <button type="submit" class="btn btn-primary">Cadastrar</button>
 </form>
 </body>

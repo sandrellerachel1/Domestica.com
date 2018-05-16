@@ -15,7 +15,8 @@
         touch($filecadastro);
     }
 
-    $data = file($filecadastro);
+    $file = file($filecadastro);
+    $data = $nome . ',' . $telefone . ',' . $genero . ',' . $frequencia
     $data[$linha] = $email . ',' . $senha . "\n";
     $data_str = implode('', $data);
     file_put_contents($filecadastro, $data_str);

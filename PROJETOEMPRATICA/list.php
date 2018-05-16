@@ -1,30 +1,34 @@
 <?php
-
+session_start();
+ if (!$_SESSION['loggerd']){
+     header('location:login.php');
+ }
+ ?>
+ <!DOCTYPE html>
+ <html>
+ <head>
+     <title></title>
+ </head>
+ <body>
+    <h1>Cadastro</h1>
+    <?php
 $filecadastro = 'cadastro.csv';
 $data = file($filecadastro);
 for($i = 0; $i < sizeof($data); $i++ ) {
     $data[$i] = explode(',', $data[$i]);
-}
-
-?>
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Cadastrado com sucesso</h1>
-    <table cellpadding="10">
-        <?php foreach ($data as $linha => $elemento): ?>
-           <tr>
-                <td><?= $elemento[0] ?></td>
-                <td><?= $elemento[1] ?></td>
-                <td><a href="delete.php?linha=<?=$linha?>">Apague Sua Conta</a></td>
-                <td><a href="edit.php?linha=<?=$linha?>">Edite sua Informações</a></td>
-            </tr>
-        <?php endforeach ?>
-    </table>
+        echo "Usuario " . ($i+1);
+            echo "<a href='delete.php?id=$i'>   X   </a><br>";
+            echo "<a href='edit.php?id=$i'>   EDIT  </a><br>";
+            echo "Nome: " . $data[0] . "<br>";
+            echo "Telefone: " . $data[1] . "<br>";
+            echo "Genero: " . $data[2] . "<br>";
+            echo "Frequencia: " . $data[3] . "<br>";
+            echo "Pretencao: " . $data[4] . "<br>";
+            echo "Categoria: " . $data[5] . "<br>";
+            echo "Categoriadeservico: " . $data[6] . "<br>";
+            echo "<br>";
+        }
+    ?>
+<a href="edit.php">Cadastre-se</a> 
 </body>
 </html>
