@@ -1,34 +1,25 @@
-<html lang="en"><head>
-<meta charset="UTF-8">
-<title>Login</title>
-
-<meta charset="utf-8">
+<<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://w3layouts.com/wp-content/themes/w3layouts/css/style-web.css?18Nov2016">
-<link href="//fonts.googleapis.com/css?family=Open+Sans:400,700,800" rel="stylesheet" type="text/css">
-<link href="//fonts.googleapis.com/css?family=Oxygen:400,700,300" rel="stylesheet" type="text/css">
-<link href="https://w3layouts.com/wp-content/themes/w3layouts/fonts/icons.css" rel="stylesheet" type="text/css">
-
-<script type="text/javascript" src="https://w3layouts.com/wp-content/themes/w3layouts/js/web/flexy-menu.js"></script>
-<script type="text/javascript" src="https://w3layouts.com/wp-content/themes/w3layouts/js/web/move-top.js"></script>
-<script type="text/javascript" src="https://w3layouts.com/wp-content/themes/w3layouts/js/web/easing.js"></script>
-<script type="text/javascript" src="https://w3layouts.com/wp-content/themes/w3layouts/js/jquery.magnific-popup.js"></script>
-<meta name="google-site-verification" content="pmhrR3CsQPEpuw32hx8i9G3Tm45rV0rb8psQ2Y-kG6Y">
-<meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Modal</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="imagens/favicon.ico">
+    <title>ONe World Domestic</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <link href="css/theme.css" rel="stylesheet">
+    <script src="js/ie-emulation-modes-warning.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/docs.min.js"></script>
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+  
 
-    <link rel="stylesheet" type="text/css" href="cadas.css">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link href="css/animate.min.css" rel="stylesheet">
-    <link href="css/prettyPhoto.css" rel="stylesheet">      
-    <link href="css/main.css" rel="stylesheet">
-    <link href="css/responsive.css" rel="stylesheet">
-  </head>
+</head>
   <body class="homepage">  
     <header id="header">
       <nav class="navbar navbar-fixed-top" role="banner">

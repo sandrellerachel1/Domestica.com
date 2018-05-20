@@ -1,19 +1,4 @@
-body{
-    background: #fff;
-    font-family: "Open Sans", Arial,sans-serif;
-    color: black;
-    line-height: 1.6em;
-    font-size: 14px;
-    margin: 0;
-}
-.navbar-fixed-top{
-    border: none;
-    top: 0;
-    position: fixed;
-    right: 0;
-    left: 0;
-    z-index: 1030;
-}
+
 .navbar{
     border-radius: 0;
     margin-bottom: 0;
@@ -23,62 +8,11 @@ body{
     min-height: 50px;
 
 }
-.navbar-toggle {
-    position: relative;
-    float: right;
-    padding: 9px 10px;
-    margin-top: 8px;
-    margin-right: 15px;
-    margin-bottom: 8px;
-    background-color: #00ff45;
-    background-image: none;
-    border: 1px solid transparent;
-    border-radius: 4px;
-}
-
-
-
-button {
-    overflow: visible;
-}
-.sr-only {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0,0,0,0);
-    border: 0;
-}
-.navbar>.container .navbar-brand {
-    margin-left: 0;
-    color:#ffe100;
-}
-
 .navbar-fixed-top .navbar-brand {
-    font-size: 36px;
-    line-height: 50px;
+    font-size: 30px;
+    color:#fff;
    
 }
-.navbar-brand {
-    padding: 0;
-    margin: 0;
-    
-}
-.navbar-brand {
-    float: left;
-    height: 50px;
-}
-.collapse {
-    display: none;
-    visibility: hidden;
-    font-family: FontAwesome;
-
-}
-
-
-
 .navbar-fixed-top .navbar-nav > li > a {
     padding: 5px 12px;
     margin: 0;
@@ -87,10 +21,6 @@ button {
     line-height: 24px;
     display: inline-block;
 }
-
-
-
-
 li a, .dropbtn {
     display: inline-block;
     color: black;
@@ -98,25 +28,18 @@ li a, .dropbtn {
     padding: 14px 16px;
     text-decoration: none;
 }
-
 li a:hover, .dropdown:hover .dropbtn {
     background-color: none;
     color: white;
 }
-
-li.dropdown {
-    display: inline-block;
-}
-
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color:#E6E6E6;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px;
     z-index: 1;
 }
-
 .dropdown-content a {
     color: black;
     padding: 10px 14px;
@@ -125,30 +48,30 @@ li.dropdown {
     text-align: left;
 }
 
-
 .dropdown-content a:hover {
-    background-color: #f1f1f1;
+    background-color:#fff;
     color: black;
 }
-
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+
+
+
 
 .corpo{
     width: 100%;
     height: 1050px;
 }
-.corpo div{
-    height: 400px;
-    margin-top:350px;
 
-}
+
 
 
 section#feature{
-    background:#dedede;
-    padding-bottom: 40px;
+    background:#D8D8D8;
+    padding-bottom: 10px;
+   
 }
 body section {
     padding: 70px 0;
@@ -186,6 +109,8 @@ p{
 }
 .features{
     padding: 0;
+    width: 100%;
+    height: 80px;
 }
 
 
@@ -208,11 +133,106 @@ p{
     color: red;
 }
 
+h1#val{
+    text-align: center;
+    color: white;
+}
+
+ul#val {
+    margin-left: 40%;
+}
+
+ul#val li{
+    color: white;
+}
 
 
+h1#login{
+    margin-top: -75px;
+    position: absolute;
+    margin-left: 50%;
+}
 
+form#login{
+    text-align:center;
+    margin-top: -130px;
+    margin-left: 9%;
+}
 
+form#login table{
+    margin-top: 300px;
+    margin-left: 40%;
+}
 
+form#login input#env{
+    margin-top: 20px;
+    margin-left: -5%;
+}
+
+.modal-login {      
+        color: #636363;
+        width: 350px;
+    }
+    .modal-login .modal-content {
+        padding: 20px;
+        border-radius: 5px;
+        border: none;
+    }
+    .modal-login .modal-header {
+        border-bottom: none;   
+        position: relative;
+        justify-content: center;
+    }
+    .modal-login h4 {
+        text-align: center;
+        font-size: 26px;
+        margin: 30px 0 -15px;
+    }
+    .modal-login .form-control:focus {
+        border-color: #70c5c0;
+    }
+    .modal-login .form-control, .modal-login .btn {
+        min-height: 40px;
+        border-radius: 3px; 
+    }
+    .modal-login .close {
+        position: absolute;
+        top: -5px;
+        right: -5px;
+    }   
+    .modal-login .modal-footer {
+        background: #ecf0f1;
+        border-color: #dee4e7;
+        text-align: center;
+        justify-content: center;
+        margin: 0 -20px -20px;
+        border-radius: 5px;
+        font-size: 13px;
+    }
+    .modal-login .modal-footer a {
+        color: #999;
+    }       
+    .modal-login .avatar {
+        position: absolute;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        top: -70px;
+        width: 95px;
+        height: 95px;
+        border-radius: 50%;
+        z-index: 9;
+        background: #086cd8;
+        padding: 15px;
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+    }
+    .modal-login .avatar img {
+        width: 100%;
+    }
+    .modal-login.modal-dialog {
+        margin-top: 80px;
+    }
+    
 
 
 .mfp-close-btn-in .mfp-close {
