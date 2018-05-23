@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="icon" href="imagens/favicon.ico">
+    <title>ONe World Domestic</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <link href="css/theme.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css.css">
+    <script src="js/ie-emulation-modes-warning.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/docs.min.js"></script>
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+  
+
+</head>
+<body>
+<?php 
+include 'cabecalho.php';
+ ?>
+<section id="page">
+        <div id="Corpo">
+
+
+
+ <center>
+    <form id="cadastro" required name="cadastro" method="post" action="cadastro.php">
+        <table background="gainsboro" class="tabela" width="625" border="0">
+        	<tr>
+            	<center>
+         			<h2>Cadastre-se Como Contratante</h2>
+          		</center>
+        	</tr>
+      </table>
+</center>         
+
+<div class="col-md-6 hidden-xs hidden-sm text-center">
+    <div class="form-row">
+    	<div class="form-group col-md-10">
+        	<label for="nome">Digite Seu Nome</label>
+         	<div class="form-control-validation">
+         		<input class="form-control" id="nome" name="nome" placeholder="Nome Completo" value="" data-parsley-required="" data-parsley-telefone="" data-parsley-id="93" type="tel">
+          	</div>
+        </div>
+
+        <div class="form-group col-md-10">
+        	<label for="celular">Digite Seu Número</label>
+         	<div class="form-control-validation">
+         		<input class="form-control" id="telefone" name="telefone" placeholder="(00) 0000-0000" value="" data-parsley-required="" data-parsley-telefone="" data-parsley-id="93" type="tel">
+          	</div>
+        </div>
+
+        <div class="form-group col-md-11">
+         	<label for="email">Digite seu Email</label>
+         	<div class="form-control-validation">
+         		<input class="form-control" id="email" name="email" placeholder="exemople@exemple" value="" data-parsley-required="" data-parsley-telefone="" data-parsley-id="93" type="email">
+          	</div>
+        </div>
+
+        <div class="form-group col-md-11">
+          <label for="endereço">Endereço</label>
+          <div class="form-control-validation">
+            <input class="form-control" id="endereco" name="endereço" placeholder="Endereço" value="endereço" type="endereço">
+            <label for="endereço">Bairro</label>
+            <input class="form-control" id="endereco" name="endereço" placeholder="Endereço" value="endereço" type="endereço">
+            </div>
+        </div>
+
+
+			<button type="submit" class="btn btn-primary">Enviar</button>
+		</div>
+ 
+
+ 	</table>
+ 	</div>
+    </form>    
+  </div>
+  
+  <center>
+      
+            <table background="gainsboro" class="tabela" width="625" border="0">
+            
+             
+      <div class="col-md-6 hidden-xs hidden-sm text-center">
+       
+        <ul class="list-unstyled">
+          <li class="registre-step">
+         <img src="imagens/feche.jpg">    
+           
+          </li>
+         </ul></table>
+    </section>
+  </div>
+  
+
+
+         <?php 
+         include 'rodape.php';
+
+         ?>
+    
+  </body>
+</html>

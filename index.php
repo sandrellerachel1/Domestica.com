@@ -37,7 +37,7 @@
                         <div class="overlay">
                             <div class="recent-work-inner">
                                 <h3><a href="sei.php">Empregado(a) Domestico(a)</a> </h3>
-                               <a href="sei.php"><button  type="button" class="btn btn-primary">Quero Contatar</button></a>
+                               <a href="sei.php"><button  type="button" class="btn btn-primary">Quero Contratar</button></a>
                               
                             </div> 
                         </div>
@@ -51,7 +51,7 @@
                         <div class="overlay">
                             <div class="recent-work-inner">
                                 <h3><a href="sei.php">Jardineiro(a)</a></h3>
-                                <a href="sei.php"><button  type="button" class="btn btn-primary">Quero Contatar</button></a>
+                                <a href="sei.php"><button  type="button" class="btn btn-primary">Quero Contratar</button></a>
                                 
                             </div> 
                         </div>
@@ -64,7 +64,7 @@
                         <div class="overlay">
                             <div class="recent-work-inner">
                                 <h3><a href="sei.php">Pintor(a)</a> </h3>
-                              <a href="sei.php"><button  type="button" class="btn btn-primary">Quero Contatar</button></a>
+                              <a href="sei.php"><button  type="button" class="btn btn-primary">Quero Contratar</button></a>
                                 
                             </div> 
                         </div>
@@ -78,7 +78,7 @@
                         <div class="overlay">
                             <div class="recent-work-inner">
                                 <h3><a href="sei.php">Cuidador(a) de Idosos </a></h3>
-                            <a href="sei.php"><button  type="button" class="btn btn-primary">Quero Contatar</button></a>
+                            <a href="sei.php"><button  type="button" class="btn btn-primary">Quero Contratar</button></a>
                             </div> 
                         </div>
                     </div>
@@ -90,7 +90,7 @@
                         <div class="overlay">
                             <div class="recent-work-inner">
                                 <h3><a href="sei.php">Cuidador(a) de Pets</a> </h3>
-                                 <a href="sei.php"><button  type="button" class="btn btn-primary">Quero Contatar</button></a>
+                                 <a href="sei.php"><button  type="button" class="btn btn-primary">Quero Contratar</button></a>
                                 
                             </div> 
                         </div>
@@ -103,7 +103,7 @@
                         <div class="overlay">
                             <div class="recent-work-inner">
                                 <h3><a href="sei.php">Cozinheiro(a)</a> </h3>
-                                 <a href="sei.php"><button  type="button" class="btn btn-primary">Quero Contatar</button></a>
+                                 <a href="sei.php"><button  type="button" class="btn btn-primary">Quero Contratar</button></a>
                                 
                             </div> 
                         </div>

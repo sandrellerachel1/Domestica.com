@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="icon" href="imagens/favicon.ico">
-    <title>ONe World Domestic</title>
+    <title>One World Domestic</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link href="css/animate.min.css" rel="stylesheet">
@@ -65,8 +65,8 @@
                 </div>              
                 <h4 class="modal-title">Login</h4>   
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
+                <span aria-hidden="true">&times;</span>
+                </button>
             </div>
             <div class="modal-body">
                 <form action="/examples/actions/confirmation.php" method="post">
@@ -97,8 +97,8 @@
         </button>
       </div>
       <div class="modal-body">
-        <center><button type="button" class="btn btn-primary">Contratante</button></center>
-        <center><button type="button" class="btn btn-primary">Trabalhador</button></center>
+        <center><a href="contratante.php"><button  type="button" class="btn btn-primary">Contratante</button></a></center>
+        <center><a href="trabalhador.php"><button  type="button" class="btn btn-primary">Trabalhador</button></a></center>
       </div>
       <div class="modal-footer">
     
