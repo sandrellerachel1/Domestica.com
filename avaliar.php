@@ -17,6 +17,7 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/docs.min.js"></script>
     <script src="js/ie10-viewport-bug-workaround.js"></script>
+    <script src="funcoes.js"></script>
   
 
 </head>

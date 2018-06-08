@@ -41,13 +41,13 @@
                 <br><h2>Visão</h2></p></center>
       <center>Ser conhecida no mercado pela competência, integridade e valor agregado na realização dos nossos serviços contratados e pela confiabilidade das suas ações.</center> </tr></td>
     
-<section id="admistradoras">
+<section id="admistradoras" align="center">
         <div class="container" id="row">
             <div class="center wow fadeInDown">
                 <h2>Administradoras</h2>
             </div></div>
              
-                <div class="col-md-6">
+                <div class="col-md-3" >
                     <div class="recent-work-wrap">
                         <p><img class="img-responsive" src="170.png" alt="">
                         <div class="overlay">
@@ -60,14 +60,13 @@
                         </div>
                     </div>
                 </div> 
-            
-        </section></div></p>
 
-            <section id="admistradoras">
+
+            
              <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <div class="recent-work-wrap">
-                        <img src="fabiana.jpg" class="rounded float-left" alt="...">
+                        <img src="fabiana.jpg" class="img-responsive" alt="...">
                         <div class="overlay">
                             <div class="recent-work-inner" >
                                 <h3><a href="#">Fabiana Nayara</a> </h3>

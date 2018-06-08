@@ -1,7 +1,7 @@
 <?php  
 include 'init.php';
 
-$user = $_POST['usuario'];
+$user = $_POST['email'];
 $senha = $_POST['senha'];
 
 if(login($user,$senha)){
@@ -9,6 +9,6 @@ if(login($user,$senha)){
 }
 
 else{
-	header('location:ei.php');
+	header('location:ala.php');
 }
 ?>

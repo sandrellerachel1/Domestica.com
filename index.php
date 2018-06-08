@@ -109,6 +109,31 @@
                         </div>
                     </div>
                 </div> 
+
+                 <div class="col-md-3">
+                    <div class="recent-work-wrap">
+                        <img class="img-responsive" src="imagens/trabalhos/costureiro.jpg" alt="">
+                        <div class="overlay">
+                            <div class="recent-work-inner">
+                                <h3><a href="sei.php">Cosureiro(a)</a> </h3>
+                                 <a href="sei.php"><button  type="button" class="btn btn-primary">Quero Contratar</button></a>
+                                
+                            </div> 
+                        </div>
+                    </div>
+                </div> 
+                 <div class="col-md-3">
+                    <div class="recent-work-wrap">
+                        <img class="img-responsive" src="imagens/trabalhos/baba.jpg" alt="">
+                        <div class="overlay">
+                            <div class="recent-work-inner">
+                                <h3><a href="sei.php">Babá</a> </h3>
+                                 <a href="sei.php"><button  type="button" class="btn btn-primary">Quero Contratar</button></a>
+                                
+                            </div> 
+                        </div>
+                    </div>
+                </div> 
            
     </div>   
 
@@ -144,8 +169,8 @@
                     <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms" style="visibility: visible; animation-duration: 1000ms; animation-delay: 600ms; animation-name: fadeInDown;">
                         <div class="feature-wrap">
                             <a href="avaliar.php"><i class="fas fa-thumbs-up"></i></a>
-                            <h2>Avalie o Nosso Profissional</h2>
-                            <h4>Nos conte como foi a sua experiencia com o nosso profissional e ajude a manter os melhores profissionais na nossa empresa.</h4>
+                            <h2>Nos Avalie</h2>
+                            <h4>Nos Avalie para sabermos se nosso serviço foi de quealidade.</h4>
                         </div>
                     </div>
 
@@ -154,13 +179,6 @@
 </section>
 
 
-<div class="corpo">
-
-</div>
-
-
-   
-</section>
 
          <?php include'rodape.php';?>
     

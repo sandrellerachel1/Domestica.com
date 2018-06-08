@@ -27,7 +27,7 @@ include 'cabecalho.php';
 
 
  <center>
-    <form id="cadastro" required name="cadastro" method="post" action="cadastro.php">
+    <form action="PROJETOEMPRATICA/addT.php" id="cadastro" required name="cadastro" method="post" action="cadastro.php">
         <table background="gainsboro" class="tabela" width="625" border="0">
         	<tr>
             	<center>
@@ -47,10 +47,10 @@ include 'cabecalho.php';
         </div>
 
     	<div class="form-group col-md-10">
-         	<label for="celular">Informe o Sexo</label>
+         	<label for="sexo">Informe o Sexo</label>
          	<div class="form-control-validation">
-         		<input type="radio" value="Masculino" name="Sexo" id="Masculino" /><label>Masculino</label>
-				<input type="radio" value="Feminino" name="Sexo" id="Feminino" /><label>Feminino</label>
+         		<input type="radio" value="Masculino" name="Sexo" id="sexo" /><label>Masculino</label>
+				<input type="radio" value="Feminino" name="Sexo" id="sexo" /><label>Feminino</label>
           	</div>
         </div>
 
@@ -71,7 +71,7 @@ include 'cabecalho.php';
 
 		<div class="form-group col-md-10">
       		<label for="selectContato">Como deseja que o contratante entre em Contato?</label>
-      		<select name="Especialidade"  value="Especialidade" class="form-control" placeholder="Especialidade">
+      		<select id="contato" name="Contato"  value="Contato" class="Contato" placeholder="Contato">
             	<option selected>Selecione...</option>
         		<option>Ligação</option>
         		<option>Whatsapp</option>
@@ -81,8 +81,8 @@ include 'cabecalho.php';
 
 
     	<div class="form-group col-md-10">
-			<label for="inputSexualidade">Frequência</label>
-			<select id="inputSexualidade" name="frequencia" class="form-control">
+			<label for="frequencia">Frequência</label>
+			<select id="frequencia" name="frequencia" class="form-control">
   				<option selected>Selecione....</option>
         		<option>Segunda a Sabado </option>
         		<option>Segunda a Sexta</option>

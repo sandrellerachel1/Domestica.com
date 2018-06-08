@@ -47,7 +47,12 @@ border-radius:40px;
 			margin: 0px;
 			padding: 0px;
 			border-width: 0px;
-		}
-
 }
+
+h1 {
+    font-size: 36px;
+    color: #040000;
+}
+
+
 		

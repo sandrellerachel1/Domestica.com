@@ -1,178 +1,168 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="imagens/favicon.ico">
-    <title>ONe World Domestic</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
-    <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
-    <link href="css/theme.css" rel="stylesheet">
-    <script src="js/ie-emulation-modes-warning.js"></script>
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/docs.min.js"></script>
-    <script src="js/ie10-viewport-bug-workaround.js"></script>
+<link rel="stylesheet" type="text/css" href="css/js.css">
+<?php 
+include 'cabecalho.php'; ?>
+  <body >
   
 
-</head>
 <body>
-
-
-<?php
-
-include'cabecalho.php';
-
-?>
-
-
-
-
-
-
-
-<section id="page">
-      <div id="Corpo">
-        <center>
-          <form id="cadastro" required name="cadastro" method="post" action="email.php">
-      
-            <table background="gainsboro" class="tabela" width="625" border="0">
-            <tr>
-              <center>
-          <h2>Fale Conocsco</h2>
-          <p> 
-           Agradecemos por você querer fazer parte do nosso time , em breve entraremos em contato com você
-          </p></center>
-        </center></tr>
-      <div class="col-md-6 hidden-xs hidden-sm text-center">
-        </table>
-              <div class="col-md-6 hidden-xs hidden-sm text-center">
-       
-        <div class="form-row">
-   
+<section id="trabalhos">
+<div id="corpo">
+<div class="container">
+<br>
+  <b><h2>Perguntas Frequentes</h2></b><br>
   
-  <div class="form-group col-md-10">
-    <label for="inputNomecompleto">Nome Completo</label>
-    <input type="text" name="nome" class="form-control" id="inputNomecompleto" placeholder="">
-  </div>
+<b><h2>Sou Trabalhador</h2></b>
+  <div class="panel-group" id="accordion">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Posso Enviar Meu Curriculo Por Email ?</a>
+        </h4>
+      </div>
+      <div id="collapse1" class="panel-collapse collapse in">
+        <div class="panel-body">Não.Todos os processos seletivos são realizados diretamente pelo Contratante e para participar é necessário que voce se cadastre em nosso site.</div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Posso entrar em contato com o contratante ?</a>
+        </h4>
+      </div>
+      <div id="collapse2" class="panel-collapse collapse">
+        <div class="panel-body">Só será permitido você entrar em contato com o contrate, quando o mesmo lhe fizer um primeiro contato e lhe permitir que você entre em contato.</div>
+      </div>
+    </div>
+
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Eu me candidato ao serviço ou sou selecionado ?</a>
+        </h4>
+      </div>
+
+      <div id="collapse3" class="panel-collapse collapse">
+        <div class="panel-body">Não será necessário se candidatar a vaga de emprego, você será selecionado pelo contratente que se interesou pelo seu perfil que será demostrado quendo o mesmo tentar procurara um trabalhador.</div>
+      </div>
+    </div>
+  </div> 
+</div>
+    <br>
+
+<div class="container">
+<br>
   
-          
-         <div class="form-group col-md-12">
-         <label for="email">Email</label>
-         <input class="form-control" id="email" name="email" placeholder="example@example" >
-          </div>
-        
-  <div class="form-group col-md-10">
-    <label for="inputNomecompleto">Nos Mande Uma Mensagem</label>
-    <input type="textarea" name="text" class="form-control" id="inputTexto" placeholder="Mensagem">
-  </div>
-          
+<b><h2>Sou Contratante</h2></b>
+  <div class="panel-group" id="accordion">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">Porque é necessário efetuar o cadastro ?</a>
+        </h4>
+      </div>
+      <div id="collapse4" class="panel-collapse collapse in">
+        <div class="panel-body">Para que possamos saber que estamos oferecendo uma oportunidade segura para os nossos trabalhadores.Assim identificar os nossos contratantes.</div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">Meu Contato Ficará exposto para os trabalhadores ?</a>
+        </h4>
+      </div>
+      <div id="collapse5" class="panel-collapse collapse">
+        <div class="panel-body">Não. O seu contato so será utilizado por nós do site se algo acontecer, ou se o contratante trocar o contato com o trabalhador. </div>
+      </div>
+    </div>
 
- </table>
- <div class="form-group col-md-19">
-  <button type="submit" class="btn btn-primary">Enviar</button>
-  </div>
-    </form>
-    
-  </div>
-  
-  </div>
-    </section>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse6">Como faço para contratar um profissional ?</a>
+        </h4>
+      </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+      <div id="collapse6" class="panel-collapse collapse">
+        <div class="panel-body">Para isso você deverá ser cadastrado no site e assim será possível postar a vaga referente ao serviço que precisa. </div>
+      </div>
+    </div>
+    <br>
+  </div> 
+</div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<section class="email" >
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <center><h2 class="section-heading text-uppercase">Fale Conosco</h2></center>
-            <center><h3 class="section-subheading text-muted">Agradecemos por você querer fazer parte do nosso time , em breve entraremos em contato com você.</h3></center>
-          </div>
+<center><h4>Caso sua dúvida não tenha sido respondida através das questões acima, preencha o formulário abaixo para que possamos lhe ajudar.</h4></center>
+<center>
+<div class="col-md-12 faq_faleconosco_section-title">
+            <h1 id="faleconosco">Fale Conosco</h1>
         </div>
-        <div class="row">
-          <div class="col-lg-12">
-            <center><form id="contactForm" name="Enviado, em breve entraremos em contato com você." action="email.php" method="POST" novalidate bacground="#DCDCDC">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <input class="form-control" id="name" type="text" name="nome" placeholder="Nome Completo" required data-validation-required-message="Por Favor insira o seu nome completo.">
-                    <p class="help-block text-danger"></p>
-                  </div>
-                  <div class="form-group">
-                    <input class="form-control" id="email" type="email" name="email" placeholder="E-mail" required data-validation-required-message="Por Favor insira o seu  e-mail.">
-                    <p class="help-block text-danger"></p>
-                  </div>
-                  <div class="form-group">
-                    <input class="form-control" id="phone" type="tel" name="whatsapp" placeholder="WhatsApp" required data-validation-required-message="Por Favor insira o seu WhatsApp">
-                    <p class="help-block text-danger"></p>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <textarea class="form-control" id="message" name="mensagem" placeholder="Nos Mande uma Mensagem" required data-validation-required-message="Campo em branco, Fale Conosco."></textarea>
-                    <p class="help-block text-danger"></p>
 
-                    <input type="submit" value="Enviar">
-                  </div>
-                </div>
-                <div class="clearfix"></div>
-                <div class="col-lg-12 text-center">
-                  <div id="success"></div>
-</div>
-</div>
-</form></center>
-</div>
+<div id="fale">
+  <div id="conteudo">
+    <input type="hidden" name="conteudo">
+    <div class="row">
+      <div class="col-lg-12 col-md col-xs-12 col-sm-12">
+      <div class="col-lg-12 col-md col-xs-12 col-sm-12">
+        <h4>Continua Com Dúvidas?</h4>
+        <h5>Mande uma Mensagem que nós te ajudamos.</h5>
+        </div>
+        </div>
+
+        <div id="formulario">
+          <div class="col-lg-12 col-md col-xs-12 col-sm-12">
+            <div class="col-lg-6 col-md col-xs-6 col-sm-6">
+              <div id="quem">
+              <h6>Escolha seu perfil</h6>
+              <input type="hidden" name="Perfil" id="perfil">
+              <select name="Conteudi_quem" id="quemsou" class="form-control" onchange="SelecionaPerfil();">
+                <option value="0">Selecione</option>
+                <option value="1">Sou Trabalhador</option>
+                <option value="2">Sou Contratante</option>
+              </select>
+            </div>
+            </div>
+    <div class="col-lg-6 col-md col-xs-6 col-sm-6">
+      <h6>Assunto</h6>
+      <input type="hidden" name="assunto">
+      <select name="Conteudo_assunto" id="assunto" class="form-control">
+        <option value="0">Selecione</option>
+        <option value="1">Dúvidas</option>
+        <option value="2">Elogios</option>
+        <option value="3">Reclamação</option>
+        <option value="4">Outros</option>
+      </select>
+        </div>
+        </div>
+
+    <div class="col-lg-12 col-md col-xs-12 col-sm-12">
+    <div class="col-lg-12 col-md col-xs-12 col-sm-12">
+      <h6>Descrição</h6>
+      <textarea name="Mensagem" id="mensagem" onpaste="return false" class="form-control" maxlength="500" rows="3" placeholder="Digite Sua Mensagem"></textarea>
+    </div> 
+      </div>
+      <div class="col-lg-12 col-md col-xs-12 col-sm-12">
+      <div class="col-md-6">
+      <h6>Nome Completo</h6>
+      <input type="text" name="nome" maxlength="50" id="textnome" class="form-control" placeholder="Digite Seu Nome" >
+        
+      </div>
+      <div class="col-md-6">
+      <h6>Email</h6>
+      <input type="text" name="email" maxlength="50" id="textEmail" class="form-control" placeholder="Digite Seu Email" >
+      </div>
+      </div>
+      <div class="col-md-offset-4 col-md-4">
+  <input type="submit" name="Enviar" value="Enviar mensagem" id="bntEnviarMensagem" class="btn btn-primary">
+                                </div>
+        </center>
+      </div>
+    </div>
+  </div>
 </div>
 </div>
 </section>
 
-
-<?php
-
-include 'rodape.php';
-?>
+    <?php include 'rodape.php'; 
+     ?>
+</body>
+</html>
