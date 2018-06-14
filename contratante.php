@@ -27,7 +27,7 @@ include 'cabecalho.php';
 
 
  <center>
-    <form id="cadastro" required name="cadastro" method="post" action="cadastro.php" >
+    <form id="cadastro" required name="cadastro" method="post" action="processa.php" >
         <table  class="ttabela" width="625" border="0">
         	<tr>
             	<center>
@@ -42,26 +42,35 @@ include 'cabecalho.php';
     	<div class="form-group col-md-10">
         	<label for="nome">Digite Seu Nome</label>
          	<div class="form-control-validation">
-         		<input class="form-control" id="nome" name="nome" placeholder="Nome Completo" value="" data-parsley-required="" data-parsley-telefone="" data-parsley-id="93" type="tel">
+         		<input class="form-control" type="text" name="nome" placeholder="Nome Completo" >
           	</div>
         </div>
 
         <div class="form-group col-md-10">
         	<label for="celular">Digite Seu Número</label>
          	<div class="form-control-validation">
-         		<input class="form-control" id="telefone" name="telefone" placeholder="(00) 0000-0000" value="" data-parsley-required="" data-parsley-telefone="" data-parsley-id="93" type="tel">
+         		<input class="form-control" type="text" name="telefone" placeholder="(00) 0000-0000">
           	</div>
         </div>
 
         <div class="form-group col-md-10">
          	<label for="email">Digite seu Email</label>
          	<div class="form-control-validation">
-         		<input class="form-control" id="email" name="email" placeholder="exemople@exemple" value="" data-parsley-required="" data-parsley-telefone="" data-parsley-id="93" type="email">
+         		<input class="form-control" type="email" name="email" placeholder="exemople@exemple" >
           	</div>
         </div>
+
+
+        <div class="form-group col-md-10">
+          <label for="email">Digite sua senha</label>
+          <div class="form-control-validation">
+            <input class="form-control" type="password" name="senha" placeholder="Senha" >
+            </div>
+        </div>
+
         <div class="form-group col-md-10">
           <label for="inputEstado">Estado</label>
-         <select name="Esptado"  value="Estado" class="form-control" placeholder="Estado">
+         <select name="estado"  value="Estado" class="form-control" placeholder="Estado">
             <option selected>Selecione....</option>
             <option value="ac">Acre</option> 
             <option value="al">Alagoas</option> 
@@ -95,13 +104,13 @@ include 'cabecalho.php';
         </div>
 
         <div class="form-group col-md-10" tabindex="-1">
-          <label for="endereço">Cidade</label>
+          <label >Cidade</label>
           <div class="form-control-validation">
-            <input class="form-control" id="endereco" name="endereço" placeholder="Cidade" type="endereço">
-            <label for="endereço">Endereço</label>
-            <input class="form-control" id="endereco" name="endereço" placeholder="Rua Exemple, Nº200" type="endereço">
-            <label for="endereço">Bairro</label>
-            <input class="form-control" id="endereco" name="endereço" placeholder="Bairro" type="endereço">
+            <input class="form-control" name="cidade" placeholder="Cidade" type="text">
+            <label >Endereço</label>
+            <input class="form-control"  name="endereco" placeholder="Rua Exemple, Nº200" type="text">
+            <label >Bairro</label>
+            <input class="form-control" name="bairro" placeholder="Bairro" type="text">
             </div>
             <button type="submit" class="btn btn-primary">Enviar</button>
         </div>

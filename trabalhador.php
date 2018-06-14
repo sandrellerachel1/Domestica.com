@@ -40,17 +40,17 @@ include 'cabecalho.php';
 <div class="trabalhe col-md-6 hidden-xs hidden-sm text-center">
     <div class="form-row">
     	<div class="form-group col-md-10">
-        	<label for="nome">Digite Seu Nome</label>
+        	<label >Digite Seu Nome</label>
          	<div class="form-control-validation">
-         		<input class="form-control" id="nome" name="nome" placeholder="Nome Completo" value="" data-parsley-required="" data-parsley-telefone="" data-parsley-id="93" type="tel">
+         		<input class="form-control"  name="nome" placeholder="Nome Completo"  type="text">
           	</div>
         </div>
 
     	<div class="form-group col-md-10">
          	<label for="sexo">Informe o Sexo</label>
          	<div class="form-control-validation">
-         		<input type="radio" value="Masculino" name="Sexo" id="sexo" /><label>Masculino</label>
-				<input type="radio" value="Feminino" name="Sexo" id="sexo" /><label>Feminino</label>
+         		<input type="radio" value="Masculino" name="sexo"  /><label>Masculino</label>
+				<input type="radio" value="Feminino" name="sexo" /><label>Feminino</label>
           	</div>
         </div>
 
@@ -58,20 +58,29 @@ include 'cabecalho.php';
         <div class="form-group col-md-10">
         	<label for="celular">Digite Seu Número</label>
          	<div class="form-control-validation">
-         		<input class="form-control" id="telefone" name="telefone" placeholder="(00) 0000-0000" value="" data-parsley-required="" data-parsley-telefone="" data-parsley-id="93" type="tel">
+         		<input class="form-control"  name="telefone" placeholder="(00) 0000-0000" type="text">
           	</div>
         </div>
 
         <div class="form-group col-md-10">
          	<label for="celular">Digite seu Email</label>
          	<div class="form-control-validation">
-         		<input class="form-control" id="email" name="email" placeholder="exemople@exemple" value="" data-parsley-required="" data-parsley-telefone="" data-parsley-id="93" type="email">
+         		<input class="form-control" name="email" placeholder="exemople@exemple" type="email">
+          	</div>
+        </div>
+
+
+
+        <div class="form-group col-md-10">
+         	<label for="celular">Digite uma senha</label>
+         	<div class="form-control-validation">
+         		<input class="form-control" name="senha" placeholder="Senha" type="password">
           	</div>
         </div>
 
 		<div class="form-group col-md-10">
       		<label for="selectContato">Como deseja que o contratante entre em Contato?</label>
-      		<select id="contato" name="Contato"  value="Contato" class="Contato" placeholder="Contato">
+      		<select name="contato"  value="Contato" class="Contato" placeholder="Contato">
             	<option selected>Selecione...</option>
         		<option>Ligação</option>
         		<option>Whatsapp</option>
@@ -82,7 +91,7 @@ include 'cabecalho.php';
 
     	<div class="form-group col-md-10">
 			<label for="frequencia">Frequência</label>
-			<select id="frequencia" name="frequencia" class="form-control">
+			<select  name="frequencia" class="form-control">
   				<option selected>Selecione....</option>
         		<option>Segunda a Sabado </option>
         		<option>Segunda a Sexta</option>
